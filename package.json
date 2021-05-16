@@ -1,0 +1,25 @@
+{
+  "name": "task_keeper",
+  "version": "1.0.0",
+  "description": "\"A Task Keeper\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shambhavisriv/Task_keeper.git"
+  },
+  "author": "Shambhavi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shambhavisriv/Task_keeper/issues"
+  },
+  "homepage": "https://github.com/shambhavisriv/Task_keeper#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.9",
+    "nodemon": "^2.0.7"
+  }
+}
