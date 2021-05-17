@@ -8,9 +8,14 @@ const port = 8000;
 //using body-parser for parsing form data
 app.use(express.urlencoded({extended:true}));
 
+// use express router
+app.use('/', require('./routes'));
+
+
 //setting template engine
 app.set('view engine','ejs');
 app.set('view','./view');
+
 
 
 //database connection
