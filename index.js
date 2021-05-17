@@ -14,14 +14,14 @@ app.use('/', require('./routes'));
 
 //setting template engine
 app.set('view engine','ejs');
-app.set('view','./view');
-
+app.set('views','./view');
 
 
 //database connection
 const db = require('./config/mongoose');
 
-
+//static files
+app.use(express.static('assets'));
 
 app.listen(port ,err => {
     if(err){
